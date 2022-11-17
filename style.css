@@ -1,6 +1,7 @@
 * {
   box-sizing: border-box;
 }
+
 :root {
   --border-color: #aaa;
 }
@@ -35,14 +36,17 @@ table {
   border-radius: 4px;
   border-collapse: collapse;
 }
-table tr {
+
+tr {
   height: 32px;
 }
-table td {
+
+td {
   padding: 8px;
   border: 1px solid var(--border-color);
 }
-table th {
+
+th {
   padding: 8px;
   border: 1px solid var(--border-color);
 }
