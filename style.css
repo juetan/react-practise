@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+}
+:root {
+  --border-color: #aaa;
+}
+
+.product-table {
+  margin: 24px auto;
+  max-width: 560px;
+}
+
+input[type='text'] {
+  height: 32px;
+  padding: 0 8px;
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
+  outline: none;
+  width: 100%;
+}
+
+label {
+  margin-top: 8px;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  line-height: 1;
+  cursor: pointer;
+}
+
+table {
+  text-align: left;
+  width: 100%;
+  margin-top: 16px;
+  border-radius: 4px;
+  border-collapse: collapse;
+}
+table tr {
+  height: 32px;
+}
+table td {
+  padding: 8px;
+  border: 1px solid var(--border-color);
+}
+table th {
+  padding: 8px;
+  border: 1px solid var(--border-color);
+}
